@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +14,8 @@ namespace mydemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            int myy = 112;
+            Console.WriteLine(myy);
             Console.ReadKey();
             //Console.WriteLine("aloha! Hello, World");
             //Console.ReadKey();
@@ -36,5 +38,13 @@ namespace mydemo
                 set;
             }
         }
+
+        private decimal money = 1000m;
+        int my = 12;
+        static string her = "what's up dude";
+        String hers = "hahahaha";
+
+
+               main
     }
 }
